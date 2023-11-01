@@ -1,0 +1,27 @@
+@import "./bootstrap_custom";
+@import "bootstrap";
+
+$sky: #8be9fd;
+$lemongrass: #f1fa8c;
+$lime: #50f97b;
+$magenta: #ff79c6;
+
+html,
+body {
+  background-color: #282a36;
+}
+
+.text- {
+  &sky {
+    color: $sky;
+  }
+  &lemongrass {
+    color: $lemongrass;
+  }
+  &lime {
+    color: $lime;
+  }
+  &magenta {
+    color: $magenta;
+  }
+}
