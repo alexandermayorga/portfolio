@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,17 +9,24 @@ export default function Header() {
     <header>
       <Navbar expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="/" className="fs-3">
+          <Link href="/" className="fs-3 navbar-brand">
             <span className="text-lemongrass">{"{ "}</span>
             <span className="text-sky me-1">a</span>
             <span className="text-magenta">m</span>
             <span className="text-lime">{" }"}</span>
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#link">Projects</Nav.Link>
+              <Link href="/" className="nav-link">
+                Home
+              </Link>
+              <Link href="/#projects" className="nav-link">
+                Projects
+              </Link>
+              <Link href="/#contact" className="nav-link">
+                Contact
+              </Link>
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

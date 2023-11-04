@@ -5,6 +5,7 @@ $sky: #8be9fd;
 $lemongrass: #f1fa8c;
 $lime: #50f97b;
 $magenta: #ff79c6;
+$violet: #bc93f9;
 
 html,
 body {
@@ -24,4 +25,55 @@ body {
   &magenta {
     color: $magenta;
   }
+  &violet{
+    color: $violet;
+  }
+}
+
+.bg- {
+  &sky {
+    background-color: $sky !important;
+  }
+  &lemongrass {
+    background-color: $lemongrass !important;
+  }
+  &lime {
+    background-color: $lime !important;
+  }
+  &magenta {
+    background-color: $magenta !important;
+  }
+  &violet{
+    background-color: $violet !important;
+  }
+}
+
+.border- {
+  &sky {
+    border-color: $sky !important;
+  }
+  &lemongrass {
+    border-color: $lemongrass !important;
+  }
+  &lime {
+    border-color: $lime !important;
+  }
+  &magenta {
+    border-color: $magenta !important;
+  }
+  &violet{
+    border-color: $violet !important;
+  }
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
 }

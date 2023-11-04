@@ -2,6 +2,7 @@ import Head from "next/head";
 // import styles from './layout.module.css';
 import { ReactNode } from "react";
 import Header from "./header";
+import Script from "next/script";
 
 const name = "Alex Mayorga";
 export const siteTitle = "Next.js Sample Website";
@@ -24,7 +25,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-
+      <Script strategy="lazyOnload" src='https://unpkg.com/holderjs@2.9.9/holder.js'></Script>
       <Header></Header>
       <main>{children}</main>
     </>
