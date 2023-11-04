@@ -233,7 +233,7 @@ export default function Home() {
           </Col>
         </Row>
         <Row>
-          <Col md="8" xl="8" className="project mb-5 mt-2 offset-md-1">
+          <Col md="8" xl="8" className="project mb-md-5 mt-2 offset-md-1">
             <Card
               bg="transparent"
               text="light"
@@ -280,7 +280,7 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="6" xl="7" className="project mb-3">
+          <Col md="6" xl="7" className="project mb-md-3">
             <Card
               bg="transparent"
               text="light"
@@ -330,11 +330,11 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md="6" xl="5" className="project mt-5">
+          <Col md="6" xl="5" className="project mt-md-5">
             <Card
               bg="transparent"
               text="light"
-              className="mb-3 mt-5 border-violet border-2 border"
+              className="mb-3 mt-md-5 border-violet border-2 border"
             >
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
               <Card.Body>
