@@ -34,7 +34,7 @@ export default function Home() {
         <div style={{ height: "70vh" }} className="d-flex align-items-center">
           <Row className="align-items-lg-center">
             <Col lg="6">
-              <h1 className="lead fs-1">Hi there! 👋🏻 I{"'"}m Alex</h1>
+              <h1 className="lead fs-1">Hi there! <span className="d-inline-block animate-wave">👋🏻</span> I{"'"}m Alex</h1>
               <h2 className="display-3">
                 {/* {"{ "} <br /> */}
                 <span className="text-magenta">Full</span>{" "}
@@ -50,12 +50,12 @@ export default function Home() {
                 <span className="text-magenta">code</span>
                 {"/>"} into captivating{" "}
                 <span className="text-lemongrass">digital experiences</span> .
-                With a creative mindset and a penchant for thinking 🧠 outside
+                With a creative mindset and a penchant for thinking <span className="d-inline-block animate-glow">🧠</span> outside
                 the <span className="text-sky">[</span>{" "}
                 <span className="text-violet">box</span>{" "}
                 <span className="text-sky">]</span>, I craft custom website
                 solutions that blend{" "}
-                <span className="text-magenta">functionality</span> ⚙️ and{" "}
+                <span className="text-magenta">functionality</span> <span className="d-inline-block animate-spin">⚙️</span> and{" "}
                 <span className="text-lime">artistry</span> 🎨.
               </p>
             </Col>

@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Script strategy="lazyOnload" src='https://unpkg.com/holderjs@2.9.9/holder.js'></Script>
+      {/* <Script strategy="lazyOnload" src='https://unpkg.com/holderjs@2.9.9/holder.js'></Script> */}
       <Header></Header>
       <main>{children}</main>
     </>
