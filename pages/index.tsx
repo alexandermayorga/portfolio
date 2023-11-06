@@ -50,13 +50,13 @@ export default function Home() {
                 <span className="text-magenta">code</span>
                 {"/>"} into captivating{" "}
                 <span className="text-lemongrass">digital experiences</span> .
-                With a creative mindset and a penchant for thinking <span className="d-inline-block animate-glow">🧠</span> outside
+                With a creative mindset and a penchant for thinking <span className="d-inline-block animate-glow fs-3">🧠</span> outside
                 the <span className="text-sky">[</span>{" "}
                 <span className="text-violet">box</span>{" "}
                 <span className="text-sky">]</span>, I craft custom website
                 solutions that blend{" "}
-                <span className="text-magenta">functionality</span> <span className="d-inline-block animate-spin">⚙️</span> and{" "}
-                <span className="text-lime">artistry</span> 🎨.
+                <span className="text-magenta">functionality</span> <span className="d-inline-block animate-spin fs-3">⚙️</span> and{" "}
+                <span className="text-lime">artistry</span> <span className="fs-3">🎨<span className="d-inline-block animate-swing">🖌️</span></span>.
               </p>
             </Col>
           </Row>

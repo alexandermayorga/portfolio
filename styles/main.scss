@@ -7,6 +7,8 @@ $lime: #50f97b;
 $magenta: #ff79c6;
 $violet: #bc93f9;
 
+@import "./animations";
+
 html,
 body {
   background-color: #282a36;
@@ -76,78 +78,4 @@ body {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
-}
-
-.animate- {
-  &spin {
-    animation: spin 4s infinite linear;
-  }
-  &glow {
-    position: relative;
-    z-index: 1;
-    &::after {
-      position: absolute;
-      z-index: -1;
-      top: 50%;
-      left: 50%;
-      content: "";
-      height: 0px;
-      width: 0px;
-      border-radius: 100%;
-      animation: glow 1.2s infinite alternate;
-    }
-  }
-  &wave {
-    animation-name: wave; /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s; /* Change to speed up or slow down */
-    animation-iteration-count: infinite; /* Never stop waving :) */
-    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-    display: inline-block;
-  }
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes glow {
-  from {
-    box-shadow: 0 0 10px -12px $magenta;
-  }
-  to {
-    box-shadow: 0 0 10px 12px $magenta;
-  }
-}
-
-// from https://codepen.io/jakejarvis/pen/pBZWZw
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
 }
