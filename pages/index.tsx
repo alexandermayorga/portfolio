@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Alex Mayorga | Full Stack JavaScript Developer</title>
+        <title>Alex Mayorga | Full Stack JavaScript Developer | Online Portfolio</title>
         <meta
           name="description"
           content="Alexander Mayorga | Full Stack JavaScript Developer"

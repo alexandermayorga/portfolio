@@ -5,7 +5,7 @@ import Header from "./header";
 import Script from "next/script";
 
 const name = "Alex Mayorga";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Alex Mayorga | Full Stack Javascript Developer";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
@@ -18,9 +18,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content={`../public/alexmayorga-logo-og-image.jpeg`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
