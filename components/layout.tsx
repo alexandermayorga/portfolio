@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         />
         <meta
           property="og:image"
-          content={`../public/alexmayorga-logo-og-image.jpeg`}
+          content="/alexmayorga-logo-og-image.jpeg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
