@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
+import Button from "react-bootstrap/Button";
 
 export default function evernoteClone() {
   return (
@@ -24,7 +25,71 @@ export default function evernoteClone() {
               on recreating the core functionalities of Evernote in a
               minimalistic and user-friendly web application.
             </p>
+            <div id="project-links" className="">
+              <Button
+                variant="light"
+                size="lg"
+                className="me-2 mb-2"
+                href="https://evernote-clone-2023.web.app/"
+                target="_blank"
+              >
+                <i className="bi-laptop"></i> Demo
+              </Button>{" "}
+              <Button
+                variant="outline-light"
+                size="lg"
+                className="me-2 mb-2"
+                href="https://github.com/alexandermayorga/evernote-clone-2023"
+                target="_blank"
+              >
+                <i className="bi-github"></i> Repo
+              </Button>
+            </div>
             <hr className="border border-2 border-magenta opacity-100" />
+            <h2 className="text-lime">Key Features</h2>
+            <p>
+              The Evernote Clone project offers several key features, including:
+            </p>
+            <ul>
+              <li>
+                <strong>User Authentication:</strong> Users are able to create
+                accounts and securely log in to the application, ensuring the
+                privacy and security of their notes.
+              </li>
+              <li>
+                <strong>Rich Text Editing:</strong> The integration of EditorJS
+                allows users to create notes with advanced formatting options,
+                including tables, headings, dividers, lists, and checklists.
+                This enhances the versatility and expressiveness of the
+                note-taking experience.
+              </li>
+              <li>
+                <strong>Server Security:</strong> The project incorporates
+                server-side security measures to restrict access to notes,
+                ensuring that each note can only be accessed by its creator.
+                This feature protects user data and maintains confidentiality.
+              </li>
+              <li>
+                <strong>Note Sorting:</strong> Users have the ability to sort
+                their notes based on various criteria such as date created, date
+                updated, or title. This provides flexibility in organizing and
+                managing notes effectively.
+              </li>
+              <li>
+                <strong>Mobile Responsiveness:</strong> The Evernote Clone
+                application is designed to be mobile-responsive, ensuring that
+                it renders properly and offers a seamless experience across
+                different devices, including mobile phones and desktops.
+              </li>
+              <li>
+                <strong>CI/CD with GitHub Actions and Firebase Hosting:</strong>{" "}
+                The project is set up for Continuous Integration and Continuous
+                Deployment (CI/CD) using GitHub Actions. Whenever new changes
+                are pushed to the project&apos;s GitHub repository&apos;s main
+                branch, GitHub Actions automatically triggers the build,
+                testing, and deployment
+              </li>
+            </ul>
             <p>
               The project utilizes a combination of front-end and back-end
               technologies to achieve its objectives. Let&apos;s explore the
@@ -70,7 +135,11 @@ export default function evernoteClone() {
                 features such as tables, headings, dividers, lists, and
                 checklists. You can learn more about EditorJS and its benefits
                 at{" "}
-                <Link href={"https://editorjs.io"} className="text-magenta" target="_blank">
+                <Link
+                  href={"https://editorjs.io"}
+                  className="text-magenta"
+                  target="_blank"
+                >
                   https://editorjs.io
                 </Link>
                 .
@@ -94,54 +163,14 @@ export default function evernoteClone() {
                 fast development and better performance. While webpack is still
                 a valid option, ViteJS proved to be fast and easy to work with.
                 More information about ViteJS can be found at{" "}
-                <Link href={"https://vitejs.dev/"} className="text-magenta" target="_blank">
+                <Link
+                  href={"https://vitejs.dev/"}
+                  className="text-magenta"
+                  target="_blank"
+                >
                   https://vitejs.dev/
                 </Link>
                 .
-              </li>
-            </ul>
-            <h2 className="text-lime">Key Features</h2>
-            <p>
-              The Evernote Clone project offers several key features, including:
-            </p>
-            <ul>
-              <li>
-                <strong>User Authentication:</strong> Users are able to create
-                accounts and securely log in to the application, ensuring the
-                privacy and security of their notes.
-              </li>
-              <li>
-                <strong>Rich Text Editing:</strong> The integration of EditorJS
-                allows users to create notes with advanced formatting options,
-                including tables, headings, dividers, lists, and checklists.
-                This enhances the versatility and expressiveness of the
-                note-taking experience.
-              </li>
-              <li>
-                <strong>Server Security:</strong> The project incorporates
-                server-side security measures to restrict access to notes,
-                ensuring that each note can only be accessed by its creator.
-                This feature protects user data and maintains confidentiality.
-              </li>
-              <li>
-                <strong>Note Sorting:</strong> Users have the ability to sort
-                their notes based on various criteria such as date created, date
-                updated, or title. This provides flexibility in organizing and
-                managing notes effectively.
-              </li>
-              <li>
-                <strong>Mobile Responsiveness:</strong> The Evernote Clone
-                application is designed to be mobile-responsive, ensuring that
-                it renders properly and offers a seamless experience across
-                different devices, including mobile phones and desktops.
-              </li>
-              <li>
-                <strong>CI/CD with GitHub Actions and Firebase Hosting:</strong>{" "}
-                The project is set up for Continuous Integration and Continuous
-                Deployment (CI/CD) using GitHub Actions. Whenever new changes
-                are pushed to the project&apos;s GitHub repository&apos;s main
-                branch, GitHub Actions automatically triggers the build,
-                testing, and deployment
               </li>
             </ul>
             <p>

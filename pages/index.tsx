@@ -20,7 +20,9 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Alex Mayorga | Full Stack JavaScript Developer | Online Portfolio</title>
+        <title>
+          Alex Mayorga | Full Stack JavaScript Developer | Online Portfolio
+        </title>
         <meta
           name="description"
           content="Alexander Mayorga | Full Stack JavaScript Developer"
@@ -34,7 +36,11 @@ export default function Home() {
         <div style={{ height: "70vh" }} className="d-flex align-items-center">
           <Row className="align-items-lg-center">
             <Col lg="6">
-              <h1 className="lead fs-1">Hi there! <span className="d-inline-block animate-wave">👋🏻</span> I{"'"}m Alex</h1>
+              <h1 className="lead fs-1">
+                Hi there!{" "}
+                <span className="d-inline-block animate-wave">👋🏻</span> I{"'"}m
+                Alex
+              </h1>
               <h2 className="display-3">
                 {/* {"{ "} <br /> */}
                 <span className="text-magenta">Full</span>{" "}
@@ -43,6 +49,24 @@ export default function Home() {
                 <span className="">Developer</span>
                 {/* <br />{" }"} */}
               </h2>
+              <div className="mb-2">
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/in/alex-mayorga/"
+                  className="text-lime text-decoration-none fs-2 me-3 d-inline-block animate-levitate"
+                  title="LinkedIn"
+                >
+                  <i className="devicon-linkedin-plain"></i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://github.com/alexandermayorga"
+                  title="Github"
+                  className="text-lime text-decoration-none fs-2 d-inline-block animate-levitate"
+                >
+                  <i className="devicon-github-plain"></i>
+                </Link>
+              </div>
             </Col>
             <Col lg="6">
               <p className="fs-4">
@@ -50,13 +74,19 @@ export default function Home() {
                 <span className="text-magenta">code</span>
                 {"/>"} into captivating{" "}
                 <span className="text-lemongrass">digital experiences</span> .
-                With a creative mindset and a penchant for thinking <span className="d-inline-block animate-glow fs-3">🧠</span> outside
-                the <span className="text-sky">[</span>{" "}
+                With a creative mindset and a penchant for thinking{" "}
+                <span className="d-inline-block animate-glow fs-3">🧠</span>{" "}
+                outside the <span className="text-sky">[</span>{" "}
                 <span className="text-violet">box</span>{" "}
                 <span className="text-sky">]</span>, I craft custom website
                 solutions that blend{" "}
-                <span className="text-magenta">functionality</span> <span className="d-inline-block animate-spin fs-3">⚙️</span> and{" "}
-                <span className="text-lime">artistry</span> <span className="fs-3">🎨<span className="d-inline-block animate-swing">🖌️</span></span>.
+                <span className="text-magenta">functionality</span>{" "}
+                <span className="d-inline-block animate-spin fs-3">⚙️</span> and{" "}
+                <span className="text-lime">artistry</span>{" "}
+                <span className="fs-3">
+                  🎨<span className="d-inline-block animate-swing">🖌️</span>
+                </span>
+                .
               </p>
             </Col>
           </Row>
@@ -226,7 +256,8 @@ export default function Home() {
           <Col md="6" xs="auto" className="offset-2 text-light mb-5">
             <h2 className="display-1 text-sky border-bottom border-lime border-3 d-inline-block">
               Projects
-            </h2><br />
+            </h2>
+            <br />
             <h2 className="ms-5 display-1 text-magenta border-bottom border-lemongrass border-3 d-inline-block">
               Showcase
             </h2>

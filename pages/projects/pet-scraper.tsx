@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
+import Button from "react-bootstrap/Button";
 
 export default function petScraper() {
   return (
@@ -26,67 +27,36 @@ export default function petScraper() {
               interface where users can easily find and adopt pets in their
               local area.
             </p>
+            <div id="project-links" className="">
+              <Button
+                variant="light"
+                size="lg"
+                className="me-2 mb-2"
+                href="https://petscraper-client.vercel.app/"
+                target="_blank"
+              >
+                <i className="bi-laptop"></i> Demo
+              </Button>
+              <Button
+                variant="outline-light"
+                size="lg"
+                className="me-2 mb-2"
+                href="https://github.com/alexandermayorga/petscraper"
+                target="_blank"
+              >
+                <i className="bi-github"></i> Repo - Server
+              </Button>
+              <Button
+                variant="outline-light"
+                size="lg"
+                className="mb-2"
+                href="https://github.com/alexandermayorga/petscraper-client"
+                target="_blank"
+              >
+                <i className="bi-github"></i> Repo - Client
+              </Button>
+            </div>
             <hr className="border border-2 border-magenta opacity-100" />
-            <p>
-              The project utilizes a combination of front-end and back-end
-              technologies to achieve its objectives. Let&apos;s explore the
-              tools used in each part:
-            </p>
-            <h2 className="text-lime">Backend</h2>
-            <ul>
-              <li>
-                <strong>Node.js:</strong> A JavaScript runtime environment used
-                for server-side development.
-              </li>
-              <li>
-                <strong>Express:</strong> A web application framework for
-                handling HTTP requests and responses.
-              </li>
-              <li>
-                <strong>Cheerio:</strong> A library for extracting data from
-                HTML and XML documents.
-              </li>
-              <li>
-                <strong>MongoDB:</strong> A popular NoSQL document-oriented
-                database used for storing the scraped animal data.
-              </li>
-              <li>
-                <strong>Mongoose:</strong> An Object Data Modeling (ODM) library
-                for MongoDB, providing schema-based data modeling.
-              </li>
-            </ul>
-            <h2 className="text-lime">Frontend</h2>
-            <ul>
-              <li>
-                <strong>React:</strong> A JavaScript library for building user
-                interfaces.{" "}
-              </li>
-              <li>
-                <strong>Next.js:</strong> A powerful framework built on top of
-                React, providing features like routing, image optimization, and
-                server-side rendering (SSR) for improved SEO leverage.
-              </li>
-              <li>
-                <strong>TypeScript:</strong> A typed superset of JavaScript that
-                brings static typing and compile-time checks to the development
-                process. TypeScript enhances code quality, provides improved
-                developer tooling, and reduces runtime errors.
-              </li>
-              <li>
-                <strong>Axios:</strong> A library used for making HTTP requests
-                from the front-end to the back-end APIs.
-              </li>
-              <li>
-                <strong>Bootstrap 5:</strong> A widely-used CSS framework that
-                provides pre-built components and a responsive grid system for
-                easier and faster front-end development.
-              </li>
-              <li>
-                <strong>PurgeCSS:</strong> A tool utilized to remove unused CSS
-                from the project, reducing the CSS build files{"'"} size and
-                improving performance.
-              </li>
-            </ul>
             <h2 className="text-lime">Key Features</h2>
             <ul>
               <li>
@@ -152,6 +122,66 @@ export default function petScraper() {
                 continuous integration and continuous deployment (CI/CD)
                 strategy, ensuring that changes are thoroughly tested and
                 deployed efficiently.
+              </li>
+            </ul>
+            <p>
+              The project utilizes a combination of front-end and back-end
+              technologies to achieve its objectives. Let&apos;s explore the
+              tools used in each part:
+            </p>
+            <h2 className="text-lime">Backend</h2>
+            <ul>
+              <li>
+                <strong>Node.js:</strong> A JavaScript runtime environment used
+                for server-side development.
+              </li>
+              <li>
+                <strong>Express:</strong> A web application framework for
+                handling HTTP requests and responses.
+              </li>
+              <li>
+                <strong>Cheerio:</strong> A library for extracting data from
+                HTML and XML documents.
+              </li>
+              <li>
+                <strong>MongoDB:</strong> A popular NoSQL document-oriented
+                database used for storing the scraped animal data.
+              </li>
+              <li>
+                <strong>Mongoose:</strong> An Object Data Modeling (ODM) library
+                for MongoDB, providing schema-based data modeling.
+              </li>
+            </ul>
+            <h2 className="text-lime">Frontend</h2>
+            <ul>
+              <li>
+                <strong>React:</strong> A JavaScript library for building user
+                interfaces.{" "}
+              </li>
+              <li>
+                <strong>Next.js:</strong> A powerful framework built on top of
+                React, providing features like routing, image optimization, and
+                server-side rendering (SSR) for improved SEO leverage.
+              </li>
+              <li>
+                <strong>TypeScript:</strong> A typed superset of JavaScript that
+                brings static typing and compile-time checks to the development
+                process. TypeScript enhances code quality, provides improved
+                developer tooling, and reduces runtime errors.
+              </li>
+              <li>
+                <strong>Axios:</strong> A library used for making HTTP requests
+                from the front-end to the back-end APIs.
+              </li>
+              <li>
+                <strong>Bootstrap 5:</strong> A widely-used CSS framework that
+                provides pre-built components and a responsive grid system for
+                easier and faster front-end development.
+              </li>
+              <li>
+                <strong>PurgeCSS:</strong> A tool utilized to remove unused CSS
+                from the project, reducing the CSS build files{"'"} size and
+                improving performance.
               </li>
             </ul>
 
