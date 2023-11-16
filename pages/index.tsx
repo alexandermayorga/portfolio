@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Layout from "@/components/layout";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -93,7 +94,11 @@ export default function Home() {
                 <Button href="#projects" variant="light" className="me-2">
                   <i className="bi bi-collection"></i> Projects
                 </Button>
-                <Button href="/Alexander Mayorga - Front End Engineer.docx.pdf" target="_blank" variant="outline-light">
+                <Button
+                  href="/Alexander Mayorga - Front End Engineer.docx.pdf"
+                  target="_blank"
+                  variant="outline-light"
+                >
                   <i className="bi bi-filetype-pdf"></i> Resume
                 </Button>
               </div>
@@ -279,7 +284,14 @@ export default function Home() {
               text="light"
               className="mb-3 border-violet border-2 border"
             >
-              {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
+              <Image
+                src="/evernote-clone-showcase-xl-tiny.jpg"
+                className="card-img-top"
+                width={856}
+                height={320}
+                alt="Picture of the author"
+              />
+              {/* <Card.Img variant="top" src="/evernote-clone-thumbnails-showcase.jpg" /> */}
               <Card.Body>
                 <Card.Title className="mb-2 text-lemongrass h5" as="h3">
                   Evernote Clone
