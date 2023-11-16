@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import Link from "next/link";
+import { Button } from "react-bootstrap";
 // import styles from '@/styles/Home.module.css'
 
 export default function Home() {
@@ -44,16 +45,16 @@ export default function Home() {
               <h2 className="display-3">
                 {/* {"{ "} <br /> */}
                 <span className="text-magenta">Full</span>{" "}
-                <span className="text-sky">Stack</span>{" "}
+                <span className="text-light">Stack</span>{" "}
                 <span className="text-lemongrass">JavaScript</span>{" "}
-                <span className="">Developer</span>
+                <span className="text-sky">Developer</span>
                 {/* <br />{" }"} */}
               </h2>
               <div className="mb-2">
                 <Link
                   target="_blank"
                   href="https://www.linkedin.com/in/alex-mayorga/"
-                  className="text-lime text-decoration-none fs-2 me-3 d-inline-block animate-levitate"
+                  className="text-light text-decoration-none fs-2 me-3 d-inline-block animate-levitate"
                   title="LinkedIn"
                 >
                   <i className="devicon-linkedin-plain"></i>
@@ -62,7 +63,7 @@ export default function Home() {
                   target="_blank"
                   href="https://github.com/alexandermayorga"
                   title="Github"
-                  className="text-lime text-decoration-none fs-2 d-inline-block animate-levitate"
+                  className="text-light text-decoration-none fs-2 d-inline-block animate-levitate"
                 >
                   <i className="devicon-github-plain"></i>
                 </Link>
@@ -88,6 +89,14 @@ export default function Home() {
                 </span>
                 .
               </p>
+              <div>
+                <Button href="#projects" variant="light" className="me-2">
+                  <i className="bi bi-collection"></i> Projects
+                </Button>
+                <Button href="/Alexander Mayorga - Front End Engineer.docx.pdf" target="_blank" variant="outline-light">
+                  <i className="bi bi-filetype-pdf"></i> Resume
+                </Button>
+              </div>
             </Col>
           </Row>
         </div>
@@ -407,6 +416,11 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
+          <div>
+            <Button href="/projects" variant="light">
+              View All
+            </Button>
+          </div>
         </Row>
       </Container>
     </Layout>
