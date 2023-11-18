@@ -285,7 +285,7 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/evernote-clone-showcase-light-2-tiny.jpg"
+                src="/evernote-clone-showcase-alternative-tiny.jpg"
                 className="card-img-top"
                 width={856}
                 height={320}
