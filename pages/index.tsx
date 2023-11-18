@@ -285,10 +285,10 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/evernote-clone-showcase-alternative-tiny.jpg"
+                src="/evernote-clone-showcase-alternative-dark-gray-tiny.jpg"
                 className="card-img-top"
                 width={856}
-                height={320}
+                height={566}
                 style={{ height: 'auto' }}
                 alt="Picture of the author"
               />
