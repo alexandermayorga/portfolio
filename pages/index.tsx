@@ -398,6 +398,7 @@ export default function Home() {
               className="mb-3 mt-md-5 border-violet border-2 border"
             >
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
+              {/* TEST */}
               <Image
                 src="/online-booking-showcase-tiny.jpg"
                 className="card-img-top"
