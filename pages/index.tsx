@@ -285,10 +285,11 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/evernote-clone-showcase-xl-tiny.jpg"
+                src="/evernote-clone-showcase-light-2-tiny.jpg"
                 className="card-img-top"
                 width={856}
                 height={320}
+                style={{ height: 'auto' }}
                 alt="Picture of the author"
               />
               {/* <Card.Img variant="top" src="/evernote-clone-thumbnails-showcase.jpg" /> */}
@@ -338,6 +339,14 @@ export default function Home() {
               text="light"
               className="mb-3 border-violet border-2 border"
             >
+              <Image
+                src="/pet-scraper-showcase-tiny-tall.jpg"
+                className="card-img-top"
+                width={746}
+                height={370}
+                style={{ height: 'auto' }}
+                alt="Picture of the author"
+              />
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
               <Card.Body>
                 <Card.Title className="mb-2 text-lemongrass h5" as="h3">
@@ -389,6 +398,15 @@ export default function Home() {
               className="mb-3 mt-md-5 border-violet border-2 border"
             >
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
+              {/* TEST */}
+              <Image
+                src="/online-booking-showcase-tiny.jpg"
+                className="card-img-top"
+                width={526}
+                height={345}
+                style={{ height: 'auto' }}
+                alt="Picture of the author"
+              />
               <Card.Body>
                 <Card.Title className="mb-2 text-lemongrass h5" as="h3">
                   Online Booking Tool
