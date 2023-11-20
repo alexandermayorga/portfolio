@@ -4,10 +4,25 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
+import Head from "next/head";
 
 export default function petScraper() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Pet Scraper Project | Alex Mayorga Full Stack JavaScript Developer
+          Portfolio
+        </title>
+        {/* <meta
+          name="description"
+          content="Explore the Pet Scraper project in Alexander Mayorga's portfolio, showcasing advanced web development techniques. This project employs Cheerio for scraping and processing animal data, a MongoDB database for efficient storage, and a React, Next.js, TypeScript, and Bootstrap 5 front-end for a user-friendly interface. Experience the benefits of TypeScript, including type safety, developer tooling, improved error handling, and performance optimization with PurgeCSS. Discover API endpoints, detailed documentation, and a robust CI/CD strategy for seamless testing and deployment."
+        /> */}
+        <meta
+          name="description"
+          content="Explore Pet Scraper—a showcase of advanced web development techniques by Alexander Mayorga. Features TypeScript, MongoDB, React, and a robust CI/CD strategy."
+        />
+      </Head>
       <style jsx>
         {`
           li strong {

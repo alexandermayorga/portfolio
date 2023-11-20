@@ -27,10 +27,8 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Alexander Mayorga | Full Stack JavaScript Developer"
+          content="Explore the online portfolio of Alexander Mayorga, a seasoned Full Stack JavaScript Developer with nearly a decade of web development experience. Discover my technical expertise, previous work experience, and notable projects. Get in touch for potential collaboration or job opportunities."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* INTRO */}
@@ -289,7 +287,7 @@ export default function Home() {
                 className="card-img-top"
                 width={856}
                 height={563.562}
-                style={{ height: 'auto' }}
+                style={{ height: "auto" }}
                 alt="Project Thumbnail - Evernote Clone"
               />
               {/* <Card.Img variant="top" src="/evernote-clone-thumbnails-showcase.jpg" /> */}
@@ -344,7 +342,7 @@ export default function Home() {
                 className="card-img-top"
                 width={742}
                 height={490.797}
-                style={{ height: 'auto' }}
+                style={{ height: "auto" }}
                 alt="Project Thumbnail - Pet Scraper"
               />
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
@@ -404,7 +402,7 @@ export default function Home() {
                 className="card-img-top"
                 width={522}
                 height={345.578}
-                style={{ height: 'auto' }}
+                style={{ height: "auto" }}
                 alt="Project Thumbnail - Online Booking"
               />
               <Card.Body>

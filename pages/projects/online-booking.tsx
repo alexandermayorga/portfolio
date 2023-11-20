@@ -3,10 +3,21 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function onlineBooking() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Online Booking Tool Project | Alexander Mayorga Full Stack Developer
+          Portfolio
+        </title>
+        <meta
+          name="description"
+          content="Explore the Online Booking Tool project by Alexander Mayorga, showcasing full-stack development expertise, A/B testing, and seamless API integration for enhanced functionality."
+        />
+      </Head>
       <style jsx>
         {`
           li strong {

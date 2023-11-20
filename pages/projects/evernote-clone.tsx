@@ -4,10 +4,25 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
+import Head from "next/head";
 
 export default function evernoteClone() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Evernote Clone Project | Alex Mayorga Full Stack JavaScript Developer
+          Portfolio
+        </title>
+        <meta
+          name="description"
+          content="Explore the Evernote Clone project showcase in Alexander Mayorga's portfolio. This exhibit exemplifies a Full Stack JavaScript Developer's proficiency in utilizing state-of-the-art technologies, including React, Editor.js, React Router, and Firebase solutions such as hosting, NoSQL database Firestore, and Firebase Authentication. Dive into the features and functionality, showcasing a meticulous blend of innovation and functionality in web development by Alexander Mayorga."
+        />
+        <meta
+          name="description"
+          content="Explore Evernote Clone—a showcase of Full Stack JavaScript skills, featuring React, Editor.js, Firebase, and innovative web development by Alexander Mayorga."
+        />
+      </Head>
       <style jsx>
         {`
           li strong {

@@ -19,6 +19,8 @@ export default function Layout({ children }: { children: ReactNode }) {
         <meta property="og:image" content="/alexmayorga-logo-og-image.jpeg" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-GV7QF43GS8" />
       <Script id="google-analytics">
