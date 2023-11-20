@@ -285,7 +285,7 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/evernote-clone-showcase-alternative-dark-gray-tiny.jpg"
+                src="/evernote-clone-showcase-alternate-square-tiny.jpg"
                 className="card-img-top"
                 width={856}
                 height={566}
@@ -340,7 +340,7 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/pet-scraper-showcase-tiny-tall.jpg"
+                src="/pet-scraper-showcase-alternate-square.jpg"
                 className="card-img-top"
                 width={746}
                 height={370}
