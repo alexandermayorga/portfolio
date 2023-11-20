@@ -285,12 +285,12 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/evernote-clone-showcase-alternate-square-tiny.jpg"
+                src="/evernote-clone-showcase-thumbnail.jpg"
                 className="card-img-top"
                 width={856}
-                height={566}
+                height={563.562}
                 style={{ height: 'auto' }}
-                alt="Picture of the author"
+                alt="Project Thumbnail - Evernote Clone"
               />
               {/* <Card.Img variant="top" src="/evernote-clone-thumbnails-showcase.jpg" /> */}
               <Card.Body>
@@ -340,12 +340,12 @@ export default function Home() {
               className="mb-3 border-violet border-2 border"
             >
               <Image
-                src="/pet-scraper-showcase-alternate-square.jpg"
+                src="/pet-scraper-showcase-thumbnail.jpg"
                 className="card-img-top"
-                width={746}
-                height={370}
+                width={742}
+                height={490.797}
                 style={{ height: 'auto' }}
-                alt="Picture of the author"
+                alt="Project Thumbnail - Pet Scraper"
               />
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
               <Card.Body>
@@ -400,12 +400,12 @@ export default function Home() {
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
               {/* TEST */}
               <Image
-                src="/online-booking-showcase-alternate-tiny.jpg"
+                src="/online-booking-showcase-thumbnail.jpg"
                 className="card-img-top"
-                width={526}
-                height={345}
+                width={522}
+                height={345.578}
                 style={{ height: 'auto' }}
-                alt="Picture of the author"
+                alt="Project Thumbnail - Online Booking"
               />
               <Card.Body>
                 <Card.Title className="mb-2 text-lemongrass h5" as="h3">
@@ -446,11 +446,12 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-          <div>
+          {/* TODO: Make another page for projects where all past projects are listed */}
+          {/* <div>
             <Button href="/projects" variant="light">
               View All
             </Button>
-          </div>
+          </div> */}
         </Row>
       </Container>
     </Layout>
