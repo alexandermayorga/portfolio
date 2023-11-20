@@ -400,7 +400,7 @@ export default function Home() {
               {/* <Card.Img variant="top" src="holder.js/100px350" /> */}
               {/* TEST */}
               <Image
-                src="/online-booking-showcase-tiny.jpg"
+                src="/online-booking-showcase-alternate-tiny.jpg"
                 className="card-img-top"
                 width={526}
                 height={345}
