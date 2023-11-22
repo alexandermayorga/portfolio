@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
 
       {/* INTRO */}
-      <Container className="text-light">
+      <Container id="intro" className="text-light">
         <div style={{ height: "70vh" }} className="d-flex align-items-center">
           <Row className="align-items-lg-center">
             <Col lg="6">
@@ -50,22 +50,36 @@ export default function Home() {
                 {/* <br />{" }"} */}
               </h2>
               <div className="mb-2">
-                <Link
+                {/* <Link
                   target="_blank"
                   href="https://www.linkedin.com/in/alex-mayorga/"
                   className="text-light text-decoration-none fs-2 me-3 d-inline-block animate-levitate"
                   title="LinkedIn"
                 >
                   <i className="devicon-linkedin-plain"></i>
-                </Link>
-                <Link
+                </Link> */}
+                <Button
+                  href="https://www.linkedin.com/in/alex-mayorga/"
+                  variant="light"
+                  className="me-2"
+                >
+                  <i className="bi bi-linkedin"></i> LinkedIn
+                </Button>
+                <Button
+                  href="https://github.com/alexandermayorga"
+                  variant="outline-light"
+                  className="me-2"
+                >
+                  <i className="bi bi-github"></i> GitHub
+                </Button>
+                {/* <Link
                   target="_blank"
                   href="https://github.com/alexandermayorga"
                   title="Github"
                   className="text-light text-decoration-none fs-2 d-inline-block animate-levitate"
                 >
                   <i className="devicon-github-plain"></i>
-                </Link>
+                </Link> */}
               </div>
             </Col>
             <Col lg="6">
@@ -106,7 +120,7 @@ export default function Home() {
       </Container>
 
       {/* EXPERIENCE */}
-      <Container className="mb-5">
+      <Container id="experience" className="mb-5">
         <Row>
           <Col lg="5" xl="3">
             <h2 className="display-2 text-lemongrass mb-3">Experience</h2>
@@ -130,14 +144,23 @@ export default function Home() {
                       July 2017 - May 2023
                     </Card.Subtitle>
                     <Card.Text>
-                      During my time at 3 Men Movers, I had the opportunity to
+                      {/* During my time at 3 Men Movers, I had the opportunity to
                       contribute significantly to our digital projects. I was
                       responsible for the successful deployment of our Online
                       Booking tool for moving and packing reservations,
                       collaborating closely with diverse teams. Additionally, I
                       worked on UX/UI enhancements, website optimizations, and
                       email template management. It was a collaborative effort
-                      that I am proud to have been a part of.
+                      that I am proud to have been a part of. */}
+                      {/* During my tenure at 3 Men Movers, I led the successful launch of an Online Booking tool, overseeing collaborative efforts on UX/UI enhancements, website optimizations, and email template management—an achievement I take pride in. */}
+                      At 3 Men Movers, I championed the rollout of the{" "}
+                      <span className="text-magenta">
+                        <strong>Online Booking</strong>
+                      </span>{" "}
+                      tool, actively contributing to collaborative efforts on
+                      UX/UI enhancements, website optimizations, and email
+                      template management—a role that remains a source of pride
+                      for me.
                     </Card.Text>
                     <div>
                       {badgesRepeater([
@@ -182,16 +205,27 @@ export default function Home() {
                       November 2015 - June 2017
                     </Card.Subtitle>
                     <Card.Text>
-                      During my time at Dealerwebb Services, I had the
+                      {/* During my time at Dealerwebb Services, I had the
                       opportunity to collaborate on various web projects. I
                       focused on client websites, employing WordPress and
                       Twitter Bootstrap, and developed an internal web tool that
                       significantly streamlined email creation processes,
                       reducing the time by half. I took pride in enhancing our
-                      clients
-                      {"'"}
-                      online presence while optimizing our internal workflow for
-                      increased efficiency.
+                      clients online presence while optimizing our internal workflow for
+                      increased efficiency. */}
+                      At Dealerwebb Services, I specialized in client websites
+                      with{" "}
+                      <span className="text-sky">
+                        <strong>WordPress</strong>
+                      </span>{" "}
+                      and{" "}
+                      <span className="text-violet">
+                        <strong>Twitter Bootstrap</strong>
+                      </span>
+                      . I developed an internal tool that halved email creation
+                      time, boosting efficiency. I took pride in improving our
+                      clients{"'"} online presence and streamlining internal
+                      workflows for optimal efficiency.
                     </Card.Text>
                     <div>
                       {badgesRepeater([
@@ -229,14 +263,27 @@ export default function Home() {
                       December 2013 - June 2015
                     </Card.Subtitle>
                     <Card.Text>
-                      During my tenure at the digital marketing agency, I
+                      {/* During my tenure at the digital marketing agency, I
                       crafted visually appealing websites from concept to
                       launch. I specialized in WordPress and CMS systems,
                       adeptly integrating third-party solutions like Google
                       Analytics and AdWords for data-driven insights. I thrived
                       in troubleshooting, content updates, maintenance tasks,
                       and plugin installations, ensuring optimal user
-                      experiences and measurable outcomes.
+                      experiences and measurable outcomes. */}
+                      At White Shark Media, I crafted visually appealing
+                      websites with <span className="text-sky"><strong>WordPress</strong></span> and different CMS systems,
+                      seamlessly integrating tools like{" "}
+                      <span className="text-lemongrass">
+                        <strong>Google Analytics</strong>
+                      </span>{" "}
+                      and{" "}
+                      <span className="text-lime">
+                        <strong>AdWords</strong>
+                      </span>
+                      . Proficient in troubleshooting and updates, I
+                      consistently delivered optimal user experiences with
+                      tangible impact.
                     </Card.Text>
                     <div>
                       {badgesRepeater([
@@ -452,6 +499,15 @@ export default function Home() {
           </div> */}
         </Row>
       </Container>
+
+      {/******************* SOF: CONTACT *******************/}
+      {/* <Container id="contact" className="text-light">
+        <Row>
+          <Col md={{ span: 8, offset: 2 }}>
+            <h2>Contact</h2>
+          </Col>
+        </Row>
+      </Container> */}
     </Layout>
   );
 }

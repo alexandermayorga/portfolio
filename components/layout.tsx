@@ -3,6 +3,7 @@ import Head from "next/head";
 import { ReactNode } from "react";
 import Header from "./header";
 import Script from "next/script";
+import Footer from "./footer";
 
 const name = "Alex Mayorga";
 export const siteTitle = "Alex Mayorga | Full Stack Javascript Developer";
@@ -33,8 +34,9 @@ export default function Layout({ children }: { children: ReactNode }) {
         `}
       </Script>
       {/* <Script strategy="lazyOnload" src='https://unpkg.com/holderjs@2.9.9/holder.js'></Script> */}
-      <Header></Header>
+      <Header />
       <main>{children}</main>
+      {/* <Footer /> */}
     </>
   );
 }

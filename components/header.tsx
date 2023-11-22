@@ -24,9 +24,9 @@ export default function Header() {
               <Link href="/#projects" className="nav-link">
                 Projects
               </Link>
-              <Link href="/#contact" className="nav-link">
+              {/* <Link href="/#contact" className="nav-link">
                 Contact
-              </Link>
+              </Link> */}
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
