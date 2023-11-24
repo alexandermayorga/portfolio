@@ -153,7 +153,7 @@ export default function Home() {
                       email template management. It was a collaborative effort
                       that I am proud to have been a part of. */}
                       {/* During my tenure at 3 Men Movers, I led the successful launch of an Online Booking tool, overseeing collaborative efforts on UX/UI enhancements, website optimizations, and email template management—an achievement I take pride in. */}
-                      At 3 Men Movers, I championed the rollout of the{" "}
+                      Championed the rollout of the{" "}
                       <span className="text-magenta">
                         <strong>Online Booking</strong>
                       </span>{" "}
@@ -213,8 +213,7 @@ export default function Home() {
                       reducing the time by half. I took pride in enhancing our
                       clients online presence while optimizing our internal workflow for
                       increased efficiency. */}
-                      At Dealerwebb Services, I specialized in client websites
-                      with{" "}
+                      Specialized in building client websites with{" "}
                       <span className="text-sky">
                         <strong>WordPress</strong>
                       </span>{" "}
@@ -272,8 +271,12 @@ export default function Home() {
                       and plugin installations, ensuring optimal user
                       experiences and measurable outcomes. */}
                       At White Shark Media, I crafted visually appealing
-                      websites with <span className="text-sky"><strong>WordPress</strong></span> and different CMS systems,
-                      seamlessly integrating tools like{" "}
+                      websites with{" "}
+                      <span className="text-sky">
+                        <strong>WordPress</strong>
+                      </span>{" "}
+                      and different CMS systems, seamlessly integrating tools
+                      like{" "}
                       <span className="text-lemongrass">
                         <strong>Google Analytics</strong>
                       </span>{" "}
@@ -501,13 +504,34 @@ export default function Home() {
       </Container>
 
       {/******************* SOF: CONTACT *******************/}
-      {/* <Container id="contact" className="text-light">
+      <Container id="contact" className="my-5">
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
-            <h2>Contact</h2>
+            <h2 className="text-lemongrass display-1">Contact</h2>
+            <p className="text-light">
+              You need help with your next web project? Send me a message and
+              Let{"'"}s get in touch!
+            </p>
           </Col>
         </Row>
-      </Container> */}
+        <Row>
+          <Col md={{ span: 8, offset: 2 }}>
+            <Button
+              variant="light"
+              target="_blank"
+              href="https://www.linkedin.com/in/alex-mayorga/"
+            >
+              <i className="bi bi-linkedin"></i> LinkedIn
+            </Button>{" "}
+            <Button
+              variant="outline-light"
+              href="mailto:alexander.mayorga.m@gmail.com"
+            >
+              <i className="bi bi-envelope-fill"></i> Email
+            </Button>{" "}
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   );
 }

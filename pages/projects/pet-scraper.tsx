@@ -72,7 +72,7 @@ export default function petScraper() {
               </Button>
             </div>
             <hr className="border border-2 border-magenta opacity-100" />
-            <h2 className="text-lime">Key Features</h2>
+            <h2 className="text-lemongrass display-3">Key Features</h2>
             <ul>
               <li>
                 <strong>Scraping and Data Processing:</strong> The back-end of
@@ -144,7 +144,8 @@ export default function petScraper() {
               technologies to achieve its objectives. Let&apos;s explore the
               tools used in each part:
             </p>
-            <h2 className="text-lime">Backend</h2>
+            <h2 className="text-lemongrass mb-3 display-3">Technologies Used</h2>
+            <h3 className="text-lime">Backend</h3>
             <ul>
               <li>
                 <strong>Node.js:</strong> A JavaScript runtime environment used
@@ -167,7 +168,7 @@ export default function petScraper() {
                 for MongoDB, providing schema-based data modeling.
               </li>
             </ul>
-            <h2 className="text-lime">Frontend</h2>
+            <h3 className="text-lime">Frontend</h3>
             <ul>
               <li>
                 <strong>React:</strong> A JavaScript library for building user

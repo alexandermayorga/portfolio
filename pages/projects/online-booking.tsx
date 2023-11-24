@@ -46,7 +46,7 @@ export default function onlineBooking() {
               specialists.
             </p>
             <hr className="border border-2 border-magenta opacity-100" />
-            <h2 className="text-lime">Key responsibilities and achievements</h2>
+            <h2 className="text-lemongrass mb-3 display-3">Key responsibilities and achievements</h2>
             <ul>
               <li>
                 Introduction of Webpack for performance optimization in the
