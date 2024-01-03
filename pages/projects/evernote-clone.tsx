@@ -47,7 +47,7 @@ export default function evernoteClone() {
                   variant="light"
                   size="lg"
                   className="me-2 mb-2"
-                  href="https://evernote-clone-2023.web.app/"
+                  href="https://notes-app-axma.web.app/"
                   target="_blank"
                 >
                   <i className="bi-laptop"></i> Demo
