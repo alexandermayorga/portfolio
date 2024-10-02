@@ -107,7 +107,7 @@ export default function Home() {
                   <i className="bi bi-collection"></i> Projects
                 </Button>
                 <Button
-                  href="/Alexander Mayorga - Front End Engineer.docx.pdf"
+                  href="/Alexander Mayorga - Front End Engineer 2024.pdf"
                   target="_blank"
                   variant="outline-light"
                 >
